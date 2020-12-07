@@ -164,3 +164,9 @@ Temporary Items
 # Ignore all local history of files
 .history
 .ionide
+.idea
+
+# Project folders to exclude
+archive
+data
+results
