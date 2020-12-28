@@ -5,7 +5,7 @@ p(x) proportional to x^-alpha
 here we want to find some parameters and compare them later
 '''
 # %%
-# powerlaw is not in anaconda, so do 'pip install powerlaw'
+# powerlaw is not in anaconda, so do: conda install -c conda-forge powerlaw
 import powerlaw
 import numpy as np
 import pandas as pd
