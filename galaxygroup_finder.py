@@ -11,7 +11,7 @@ import os
 
 
 def get_lastpair(gal_array):
-    """ Function to te the last galaxy pair in the array
+    """ Function to get the last galaxy pair in the array
 
     Parameter:
         gal_array (numpy array): [array of all remaining galaxies]

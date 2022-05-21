@@ -49,7 +49,7 @@ def calc_skysep(dec1, dec2, ra1, ra2):
 def con_check(data, x_1, los, trans):
     """
     Function to add separations and linking conditions, looks if
-    there a galaxy has neighbours.
+    a galaxy has neighbours.
 
     Parameters: data, dataframe of galaxies
                 x_1, rownumber in dataframe
