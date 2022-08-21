@@ -48,7 +48,7 @@ def get_neighbours(data_array, test_array):
         new_index = np.concatenate((nnew_1, nnew_2))
         new_array = data_array[new_index]
         new_index = np.unique(new_index)
-        new_index - np.sort(new_index)
+        new_index = np.sort(new_index)
         new_array = np.unique(new_array)
         new_array = np.sort(new_array)
     return new_index, new_array
